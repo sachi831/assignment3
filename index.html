@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>access</title>
+</head>
+<body>
+    <h1>Function Events </h1>
+    <h2>weekends class </h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Speaker</th>
+                <th>weekends</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:30 AM - 11:00 AM</td>
+                <td>introduction </td>
+                <td>Nikhil </td>
+                <td>saturday</td>
+            </tr>
+            <tr>
+                <td>08:30AM - 11:00 AM</td>
+                <td>HTML</td>
+                <td>Sagar</td>
+                <td>sunday</td>
+            </tr>
+            <tr>
+                <td>11:30 AM - 01:30 AM</td>
+                <td>css</td>
+                <td>Radeesh </td>
+                <td>sunday</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Speakers</h2>
+    <dl>
+        <dt>Nikhil</dt>
+        <dd>Nikhil is a renowned technology futurist and author with a focus on the evolution of digital innovation.</dd>
+          <dt> Sagar</dt>
+        <dd></dd>Sagar is a distinguished professor of JS at Data Science University, specializing in deep learning and artificial intelligence.</dd>
+        <dt>Radeesh</dt>
+        <dd>Radeesh is a quantum computing researcher at QuantumLeap Labs and in css known for his contributions to quantum algorithms and their practical applications.</dd>
+     </dl>
+    </body>
+    </html>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>form</title>
+</head>
+<body>
+     <h1>Registration Form</h1>
+    <form action="/submit_registration" method="post">
+      <br>  <label for="full_name">Full Name:</label> 
+        <input type="text" id="full_name" name="full_name" required>
+    </br>
+    <br>
+        <label for="gender">age:</label>
+        <input type="gender" id="gender" name="gender" required>
+    </br>
+    <br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+    </br>
+    <br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+    </br>
+<br>
+        <label for="organization">Organization:</label>
+        <input type="text" id="organization" name="organization">
+        </br>
+</form>
+<br>
+        <label for="sessions">Select Sessions to Attend:</label>
+        <select id="sessions" name="sessions[]" multiple>
+            </br>
+            <br>
+            <option value="keynote">vs  code</option>
+            <option value="ml_advancements">html</option>
+            <option value="cybersecurity">css</option>
+            <option value="quantum_computing">javascript</option>
+            <option value="ethics_panel">open AI GPT</option>
+        </br>
+        </select>
+        <br>
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+    </br>
+    <br>
+        <button type="submit">Register</button>
+</br>
+    </form>
+</body>
+</html>
+
